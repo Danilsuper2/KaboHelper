@@ -29,4 +29,5 @@ def f(message):
 def f(call):
     kabo.send_message(call.message.chat.id, 'Вы нажали на кнопку {}'.format(call.data))
 
+
 kabo.polling(none_stop=True)
